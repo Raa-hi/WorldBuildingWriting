@@ -1,4 +1,12 @@
 .Text {
   color: #D1C0A8;
-  
+}
+
+body {
+    background-image: url('https://pixabay.com/images/download/pexels-bible-1868070_1920.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #333333;
 }
