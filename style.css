@@ -1,3 +1,28 @@
 .Text {
   color: #D1C0A8;
 }
+
+.itemimg{
+  width:400;
+  height:400;
+  padding:10;
+}
+
+.ItemGrid{
+  display:grid;
+  grid-template-columns: auto auto auto;
+}
+
+.itemcontainer{
+  margin:50;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  aspect-ratio:1/1;
+  background-color: #D1C0A8;
+}
+
+.Caption{
+  padding:10;
+}
