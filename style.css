@@ -1,4 +1,8 @@
-.Text {
+.heading {
+  align-items:center;
+}
+
+.text {
   color: #D1C0A8;
   padding:10px;
 }
