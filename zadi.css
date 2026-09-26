@@ -1,7 +1,14 @@
 .heading{
   text-color:#D1C0A8;
+  text-align:center
 }
 
 body{
   background-color:#614028;
+}
+
+.basic_map{
+  width:100px;
+  height:100px;
+  align:center;
 }
