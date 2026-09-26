@@ -22,7 +22,7 @@ body {
   height:400px;
   margin:10px;
   display: flex;
-  flex-direction:rows;
+  flex-direction:columns;
   align-items: center;
   justify-content: center;
   
