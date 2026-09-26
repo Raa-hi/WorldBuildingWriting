@@ -25,18 +25,21 @@ body {
   flex-direction:rows;
   align-items: center;
   justify-content: center;
-  
+
+  text-color: #614028;
   background-color: #D1C0A8; /* tan color */
   transition: background-color 0.3 ease; 
-        }
+}
 
        
 .country-buttons:hover {
     background-color: #614028; /* brown color */
+    text-color:#D1C0A8;
     cursor: pointer;   
 }
 
 
 .Caption{
   padding:10px;
+  
 }
