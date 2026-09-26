@@ -19,16 +19,15 @@ body {
 }
 
 .ItemGrid{
-  display:space-around;
+  justify-content:center;
 }
 
 .country-buttons {
   width:400px;
   height:400px;
   margin:10px;
-  flex-direction:columns;
-  align-content: space-around;
-  justify-content: space-around;
+  align-items:center;
+  justify-items: center;
 
   text-color: #614028;
   background-color: #D1C0A8; /* tan color */
