@@ -33,13 +33,13 @@ body {
 
        
 .country-buttons:hover {
-    background-color: #614028; /* brown color */
-    text-color:#D1C0A8;
-    cursor: pointer;   
+  background-color: #614028; /* brown color */
+  text-color:#D1C0A8;
+  cursor: pointer;   
 }
 
 
 .Caption{
   padding:10px;
-  
+  text-color:#D1C0A8;
 }
