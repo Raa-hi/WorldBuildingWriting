@@ -22,7 +22,7 @@ body {
   height:400px;
   margin:10px;
   display: flex;
-  flex-direction:columns;
+  flex-direction:rows;
   align-items: center;
   justify-content: center;
   
@@ -31,7 +31,7 @@ body {
         }
 
        
-.color-container:hover {
+.country-buttons:hover {
     background-color: #614028; /* brown color */
     cursor: pointer;   
 }
