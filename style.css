@@ -21,7 +21,6 @@ body {
   width:400px;
   height:400px;
   margin:10px;
-  display: flex;
   flex-direction:columns;
   align-content: space-around;
   justify-content: space-around;
