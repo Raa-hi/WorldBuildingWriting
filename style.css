@@ -14,8 +14,7 @@ body {
 }
 
 .ItemGrid{
-  display:grid;
-  grid-template-rows:1;
+  display:space-around;
 }
 
 .country-buttons {
@@ -24,8 +23,8 @@ body {
   margin:10px;
   display: flex;
   flex-direction:columns;
-  align-content: end;
-  justify-content: center;
+  align-content: space-around;
+  justify-content: space-around;
 
   text-color: #614028;
   background-color: #D1C0A8; /* tan color */
