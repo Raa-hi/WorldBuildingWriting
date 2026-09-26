@@ -7,9 +7,9 @@ body {
 }
 
 .itemimg{
-  width:100px;
-  height:100px;
-  padding:20px;
+  width:400px;
+  height:400px;
+  padding:10px;
 }
 
 .ItemGrid{
@@ -46,4 +46,5 @@ body {
 
 
 .Caption{
+  padding:10px;
 }
