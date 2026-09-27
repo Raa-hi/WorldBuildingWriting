@@ -38,7 +38,7 @@ body {
 
   text-color: #614028;
   background-color: #D1C0A8;
-  transition: background-color 0.3 ease;
+  transition: background-color 0.3s ease;
 }
        
 .country-buttons:hover {
