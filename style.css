@@ -36,10 +36,9 @@ body {
 
   text-align: center;
 
-  color: #614028;
+  text-color: #614028;
   background-color: #D1C0A8;
   transition: background-color 0.3 ease;
-}
 }
        
 .country-buttons:hover {
