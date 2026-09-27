@@ -12,13 +12,13 @@ body {
   background-color: #614028;
 }
 
-.itemimg{
+.itemimg {
   width:200px;
   height:200px;
   padding:10px;
 }
 
-.ItemGrid{
+.ItemGrid {
   justify-content:center;
   display:flex;
   flex-direction:column;
@@ -30,7 +30,7 @@ body {
   margin:10px;
   display:flex;
   align-items:center;
-  justify-content: center;
+  justify-content:center;
   text-align:center;
 
   text-color: #614028;
@@ -40,6 +40,5 @@ body {
        
 .country-buttons:hover {
   background-color: #614028; /* brown color */
-  text-color:#D1C0A8;
   cursor: pointer;   
 }
