@@ -21,7 +21,6 @@ body {
 .ItemGrid {
   justify-content:center;
   display:flex;
-  flex-direction:column;
 }
 
 .country-buttons {
