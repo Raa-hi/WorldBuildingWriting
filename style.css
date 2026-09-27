@@ -19,22 +19,28 @@ body {
 }
 
 .ItemGrid {
-  justify-content:center;
   display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
 }
 
 .country-buttons {
-  width:400px;
-  height:400px;
-  margin:10px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  text-align:center;
+ .country-buttons {
+  width: 400px;
+  height: 400px;
+  margin: 10px;
 
-  text-color: #614028;
-  background-color: #D1C0A8; /* tan color */
-  transition: background-color 0.3 ease; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  color: #614028;
+  background-color: #D1C0A8;
+  transition: background-color 0.3 ease;
+}
 }
        
 .country-buttons:hover {
