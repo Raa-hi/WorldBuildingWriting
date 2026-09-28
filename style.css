@@ -13,17 +13,17 @@ body {
 }
 
 .itemimg {
-  width:200px;
-  height:200px;
-  padding:10px;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .ItemGrid {
-  display:flex;
-  flex-direction:row;
-  align-items:center;
-  justify-content:center;
-  flex-wrap:wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 400px));
+  justify-content: center;
+  gap: 20px;
 }
 
 .country-buttons {
@@ -37,10 +37,7 @@ body {
   flex-direction:row;
   flex-wrap:wrap;
   
-
   text-align: center;
-
-  text-color: #614028;
   background-color: #D1C0A8;
   transition: background-color 0.3s ease;
 }
