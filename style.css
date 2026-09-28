@@ -27,16 +27,21 @@ body {
 }
 
 .country-buttons {
-  width: 400px;
+ /* width: 400px;
   height: 400px;
   margin: 10px;
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 
-  text-align: center;
   background-color: #D1C0A8;
+
+  margin:50px;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
 }
        
 .country-buttons:hover {
