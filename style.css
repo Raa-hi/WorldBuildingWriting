@@ -20,19 +20,23 @@ body {
 }
 
 .ItemGrid {
-    display: grid;
-    grid-template-columns: repeat(2, 400px);
-    justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  justify-content: center;
 }
 
 .country-buttons {
-  background-color: #D1C0A8;
-
-  margin:50px;
+  width:400px;
+  height:400px
+  margin:10px;
+  
   display:flex;
   flex-direction:column;
   justify-content: center;
   align-items:center;
+  
+  transition: background-color 0.3s ease;
+  background-color: #D1C0A8;
 }
        
 .country-buttons:hover {
